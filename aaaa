@@ -1,0 +1,13 @@
+https://www.baeldung.com/java-performance-mapping-frameworks
+
+作者回复: 对，项目用了mapstruct(https://github.com/mapstruct/mapstruct)，做DTO和DMO之间的映射。
+
+作者回复: 从github上看，orika和modelmapper的历史时间差不多，都是2011 ～ 2019, orika有780星，modelmapper有1192星，两个差不多。
+
+参考：
+https://github.com/orika-mapper/orika/graphs/contributors
+https://github.com/modelmapper/modelmapper/graphs/contributors
+https://github.com/modelmapper/modelmapper/graphs/contributors
+
+
+作者回复: BeanUtils只能做简单的一对一的字段映射和克隆，ModelMapper之类是专业的Java Mapping框架，具有很灵活的配置和智能映射能力，常见的专业Mapping框架可以参考：https://www.baeldung.com/java-performance-mapping-frameworks
